@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Trivia Quiz</title>
-	<script>
+/*	<title>Trivia Quiz</title>
+
+<script>
     
 var score = 0
 var i = 1
