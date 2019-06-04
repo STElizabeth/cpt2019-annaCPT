@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	
-<title>Trivia Quiz</title>
-
-<script>
     
 var score = 0
 var i = 1
@@ -192,8 +185,6 @@ else if (i===10){
 	
 	
 	
-	
-	
 	i++; 
 }
 		
@@ -201,15 +192,4 @@ else if (i===10){
 		
 		
 		
-		
-		
-		
-    </script>
 
-</head>
-
-
-</html>
-
-
-© 2019 GitHub, Inc.
