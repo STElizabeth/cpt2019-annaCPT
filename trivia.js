@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-/*	<title>Trivia Quiz</title>
+	
+<title>Trivia Quiz</title>
 
 <script>
     
