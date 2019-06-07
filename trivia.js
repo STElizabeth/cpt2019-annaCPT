@@ -11,10 +11,12 @@ if (ans===1){
     if(yy==="C"){
         document.getElementById("question").value="You are right"
         score++
+	
         
     }
     else {
         document.getElementById("question").value="You are wrong"
+	
         
     }
     document.view.qscore.value=score
