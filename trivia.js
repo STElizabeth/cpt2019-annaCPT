@@ -11,12 +11,14 @@ if (ans===1){
     if(yy==="C"){
         document.getElementById("question").value="You are right"
         score++
-	
+	document.searchImage.src = "smile.gif"
+
         
     }
     else {
         document.getElementById("question").value="You are wrong"
-	
+	document.searchImage.src = "sad.gif"
+
         
     }
     document.view.qscore.value=score
