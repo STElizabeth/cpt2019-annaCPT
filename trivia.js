@@ -10,8 +10,9 @@ if (ans===1){
     y = document.getElementById("qans").value
     if(yy==="C"){
         document.getElementById("question").value="You are right"
+	   document.searchImage.src = "smile.gif"
         score++
-	document.searchImage.src = "smile.gif"
+	
 
         
     }
