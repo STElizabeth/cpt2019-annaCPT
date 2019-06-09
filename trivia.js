@@ -10,8 +10,8 @@ if (ans===1){
     y = document.getElementById("qans").value
     if(yy==="C"){
         document.getElementById("question").value="You are right"
-	
-	 <p>hell</p>  
+	 System.out.println("even number");  
+	  
         score++
 	
 
@@ -19,7 +19,7 @@ if (ans===1){
     }
     else {
         document.getElementById("question").value="You are wrong"
-	<p>greg</p>
+	 System.out.println("even number");  
 
         
     }
