@@ -16,6 +16,7 @@ if (ans===1){
     }
     else {
         document.getElementById("question").value="You are wrong"
+	     document.write("<img src='sad.gif'>")
         
     }
     document.view.qscore.value=score
