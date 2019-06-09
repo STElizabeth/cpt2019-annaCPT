@@ -132,11 +132,6 @@ else if (ans===10){
 		
 	ans++; 
 	
-    mark=score*10
-    if(mark>=80){
-	document.write("Congrats you got 80 % or higher!!!")
-	document.write("<img src='smile.gif'>")
-     }	
 }
 
 
@@ -195,6 +190,15 @@ else if (i===10){
 	
 }	
 	i++;
+    mark=score*10
+    if(mark>=80){
+	document.write("Congrats you got 80 % or higher!!!")
+	document.write("<img src='smile.gif'>")
+     }
+     else {
+	document.write("Sorry you scored lower than 80 % !")
+	document.write("<img src='sad.gif'>")
+     }
 	
 }
 		
