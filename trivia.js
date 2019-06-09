@@ -13,14 +13,12 @@ if (ans===1){
 	  
 	  
         score++
-	System.out.println("even number"); 
+	
 
         
     }
     else {
         document.getElementById("question").value="You are wrong"
-	 System.out.println("even number");  
-
         
     }
     document.view.qscore.value=score
