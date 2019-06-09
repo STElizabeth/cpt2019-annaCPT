@@ -10,13 +10,13 @@ if (ans===1){
     y = document.getElementById("qans").value
     if(yy==="C"){
         document.getElementById("question").value="You are right"
-	     document.write("<img src='smile.gif'>")
+	     document.write("<img src='smile.gif' width="200" height="400">")
         score++
         
     }
     else {
         document.getElementById("question").value="You are wrong"
-	     document.write("<img src='sad.gif'>")
+	     document.write("<img src='sad.gif' width="200" height="400">")
         
     }
     document.view.qscore.value=score
