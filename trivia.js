@@ -2,6 +2,7 @@
 var score = 0
 var i = 1
 var ans = 1
+var mark = 0
 function submitAnswer(){
     y = document.getElementById("qans").value
     var yy=y.toUpperCase();
@@ -134,6 +135,14 @@ else if (ans===10){
 		
 	ans++; 
 }
+
+mark=score*100
+if(mark=>80){
+	document.write("Congrats you got 80 % or higher")
+}
+
+
+
         
 function main(){ 
 if (i===1){ 
