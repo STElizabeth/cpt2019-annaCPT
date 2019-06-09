@@ -11,13 +11,14 @@ if (ans===1){
     y = document.getElementById("qans").value
     if(yy==="C"){
         document.getElementById("question").value="You are right"
-	    
+	var audio = new Audio('applause2.mp3');
+	audio.play();
         score++
-        
     }
     else {
         document.getElementById("question").value="You are wrong"
-    		          
+    	var audio = new Audio('wronganswer.mp3');
+	audio.play();	          
     }
     document.view.qscore.value=score
 }
