@@ -9,12 +9,8 @@ function submitAnswer(){
 if (ans===1){
     y = document.getElementById("qans").value
     if(yy==="C"){
-        document.getElementById("question").value="You are right"
-	  
-	  
+        document.getElementById("question").value="You are right" 
         score++
-	
-
         
     }
     else {
