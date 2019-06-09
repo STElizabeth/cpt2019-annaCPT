@@ -11,7 +11,7 @@ if (ans===1){
     if(yy==="C"){
         document.getElementById("question").value="You are right"
 	
-	  document.searchImage.src = "smile.gif"  
+	 <p>hell</p>  
         score++
 	
 
@@ -19,7 +19,7 @@ if (ans===1){
     }
     else {
         document.getElementById("question").value="You are wrong"
-	document.searchImage.src = "sad.gif"
+	<p>greg</p>
 
         
     }
