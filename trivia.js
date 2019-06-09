@@ -17,10 +17,7 @@ if (ans===1){
     }
     else {
         document.getElementById("question").value="You are wrong"
-  
-			    		    
-	
-        
+    		          
     }
     document.view.qscore.value=score
 }
@@ -191,14 +188,14 @@ else if (i===10){
 	document.view.qnum.value=i;	
 	document.view.question.value ="What is the name of NASA’s most famous space telescope? \na) Venus Spectral Rocket Experiment \nb) Spitzer Space Telescope \nc) The HST \nd) The James Webb Space Telescope";
     document.view.qans.value=""
-}	
-	i++;
-	
-mark=score*10
-if(mark>=80){
+    mark=score*10
+    if(mark>=80){
 	document.write("Congrats you got 80 % or higher!!!")
 	document.write("<img src='smile.gif'>")
-}
+     }	
+	
+}	
+	i++;
 	
 }
 		
