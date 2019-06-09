@@ -11,7 +11,7 @@ if (ans===1){
     if(yy==="C"){
         document.getElementById("question").value="You are right" 
         score++
-        
+       smile.gif.visible=true; 
     }
     else {
         document.getElementById("question").value="You are wrong"
