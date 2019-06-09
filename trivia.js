@@ -186,9 +186,10 @@ else if (i===10){
 	document.view.qnum.value=i;	
 	document.view.question.value ="What is the name of NASA’s most famous space telescope? \na) Venus Spectral Rocket Experiment \nb) Spitzer Space Telescope \nc) The HST \nd) The James Webb Space Telescope";
     document.view.qans.value=""
+}
 else {
     mark=score*10
-    if(mark>=80){
+    if(mark >= 80){
 	document.write("Congrats you got 80 % or higher!!!")
 	document.write("<img src='smile.gif'>")
 	var audio = new Audio('applause2.mp3');
