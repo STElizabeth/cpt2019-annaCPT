@@ -19,7 +19,7 @@ if (ans===1){
     }
     else {
         document.getElementById("question").value="You are wrong"
-	
+	document.searchImage.src = "sad.gif"
 
         
     }
