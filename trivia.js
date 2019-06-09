@@ -9,9 +9,10 @@ function submitAnswer(){
 if (ans===1){
     y = document.getElementById("qans").value
     if(yy==="C"){
-        document.getElementById("question").value="You are right" 
+        document.getElementById("question").value="You are right"
+	     document.write("<img src='smile.gif'>")
         score++
-       smile.gif.visible=true; 
+        
     }
     else {
         document.getElementById("question").value="You are wrong"
