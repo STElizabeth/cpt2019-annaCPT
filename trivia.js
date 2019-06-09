@@ -194,7 +194,7 @@ else if (i===10){
 }	
 	i++;
 	
-mark=score*100
+mark=score*10
 if(mark>=80){
 	document.write("Congrats you got 80 %")
 }	
