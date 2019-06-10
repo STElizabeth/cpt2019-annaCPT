@@ -240,7 +240,7 @@ else {
     if(mark >= 80){
 	document.write("Congrats you got 80 % or higher!!!")
 	document.write("<img src='smile.gif'>")
-	var audio = new Audio('applause2.mp3');
+	var audio = new Audio('happytrumpet.mp3');
 	    audio.play();
      }
      else {
