@@ -13,13 +13,14 @@ if (ans===1){
         document.getElementById("question").value="You are right"
 	var audio = new Audio('applause2.mp3');
 	audio.play();
-	 document.write.style.backgroundimage("<img src = smile.gif>")
+	document.body.style.backgroundImage = "url(smile.gif)"
         score++
     }
     else {
         document.getElementById("question").value="You are wrong"
     	var audio = new Audio('wronganswer.mp3');
-	audio.play();	          
+	audio.play();
+	    document.body.style.backgroundImage = "url(sad.gif)"
     }
     document.view.qscore.value=score
 }
@@ -28,13 +29,15 @@ else if (ans===2){
     if(yy==="C"){
         document.getElementById("question").value="You are right"
 	  var audio = new Audio('applause2.mp3');
-	audio.play();  
+	audio.play(); 
+	    document.body.style.backgroundImage = "url(smile.gif)"
          score++
     }
     else {
         document.getElementById("question").value="You are wrong"
         var audio = new Audio('wronganswer.mp3');
 	audio.play();
+	    document.body.style.backgroundImage = "url(sad.gif)"
     }
     document.view.qscore.value=score
 }
@@ -44,12 +47,14 @@ else if (ans===3){
         document.getElementById("question").value="You are right"
 	 var audio = new Audio('applause2.mp3');
 	audio.play();   
+	    document.body.style.backgroundImage = "url(smile.gif)"
          score++
     }
     else {
         document.getElementById("question").value="You are wrong"
         var audio = new Audio('wronganswer.mp3');
 	audio.play();
+	    document.body.style.backgroundImage = "url(sad.gif)"
     }
     document.view.qscore.value=score
 }
@@ -59,12 +64,14 @@ else if (ans===4){
         document.getElementById("question").value="You are right"
 	    var audio = new Audio('applause2.mp3');
 	audio.play();
+	    document.body.style.backgroundImage = "url(smile.gif)"
          score++
     }
     else {
         document.getElementById("question").value="You are wrong"
         var audio = new Audio('wronganswer.mp3');
 	audio.play();
+	    document.body.style.backgroundImage = "url(sad.gif)"
     }
     document.view.qscore.value=score
 }
@@ -74,12 +81,14 @@ else if (ans===5){
         document.getElementById("question").value="You are right"
 	    var audio = new Audio('applause2.mp3');
 	audio.play();
+	    document.body.style.backgroundImage = "url(smile.gif)"
          score++
     }
     else {
         document.getElementById("question").value="You are wrong"
         var audio = new Audio('wronganswer.mp3');
 	audio.play();
+	    document.body.style.backgroundImage = "url(sad.gif)"
     }
     document.view.qscore.value=score
 }
@@ -89,12 +98,14 @@ else if (ans===6){
         document.getElementById("question").value="You are right"
 	    var audio = new Audio('applause2.mp3');
 	audio.play();
+	    document.body.style.backgroundImage = "url(smile.gif)"
          score++
     }
     else {
         document.getElementById("question").value="You are wrong"
         var audio = new Audio('wronganswer.mp3');
 	audio.play();
+	    document.body.style.backgroundImage = "url(sad.gif)"
     }
     document.view.qscore.value=score
 }
@@ -104,12 +115,14 @@ else if (ans===7){
         document.getElementById("question").value="You are right"
 	    var audio = new Audio('applause2.mp3');
 	audio.play();
+	    document.body.style.backgroundImage = "url(smile.gif)"
          score++
     }
     else {
         document.getElementById("question").value="You are wrong"
         var audio = new Audio('wronganswer.mp3');
 	audio.play();
+	    document.body.style.backgroundImage = "url(sad.gif)"
     }
     document.view.qscore.value=score
 }
@@ -119,12 +132,14 @@ else if (ans===8){
         document.getElementById("question").value="You are right"
 	    var audio = new Audio('applause2.mp3');
 	audio.play();
+	    document.body.style.backgroundImage = "url(smile.gif)"
          score++
     }
     else {
         document.getElementById("question").value="You are wrong"
         var audio = new Audio('wronganswer.mp3');
 	audio.play();
+	    document.body.style.backgroundImage = "url(sad.gif)"
     }
     document.view.qscore.value=score
 }
@@ -134,12 +149,14 @@ else if (ans===9){
         document.getElementById("question").value="You are right"
 	    var audio = new Audio('applause2.mp3');
 	audio.play();
+	    document.body.style.backgroundImage = "url(smile.gif)"
          score++
     }
     else {
         document.getElementById("question").value="You are wrong"
         var audio = new Audio('wronganswer.mp3');
 	audio.play();
+	    document.body.style.backgroundImage = "url(sad.gif)"
     }
     document.view.qscore.value=score
 }
@@ -149,12 +166,14 @@ else if (ans===10){
         document.getElementById("question").value="You are right"
 	    var audio = new Audio('applause2.mp3');
 	audio.play();
+	    document.body.style.backgroundImage = "url(smile.gif)"
          score++
     }
     else {
         document.getElementById("question").value="You are wrong"
        var audio = new Audio('wronganswer.mp3');
 	audio.play(); 
+	    document.body.style.backgroundImage = "url(sad.gif)"
     }
     document.view.qscore.value=score
 }
