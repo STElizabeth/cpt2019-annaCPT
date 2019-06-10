@@ -239,13 +239,13 @@ else {
     mark=score*10
     if(mark >= 80){
 	document.write("Congrats you got ",mark, " %" )
-	document.write("<img src='smile.gif'>")
+	document.write("<img src='goodscore.gif'>")
 	var audio = new Audio('happytrumpet.mp3');
 	    audio.play();
      }
      else {
 	document.write("Sorry you got ",mark, " %")
-	document.write("<img src='sad.gif'>")
+	document.write("<img src='badscore.gif'>")
 	var audio =  new Audio('failure.mp3');
 	audio.play();    
      }	
