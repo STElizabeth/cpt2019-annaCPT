@@ -246,7 +246,7 @@ else {
      else {
 	document.write("Sorry you scored lower than 80 % !")
 	document.write("<img src='sad.gif'>")
-	var audio =  new Audio('wronganswer.mp3');
+	var audio =  new Audio('failure.mp3');
 	audio.play();    
      }	
 }	
