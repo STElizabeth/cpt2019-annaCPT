@@ -13,6 +13,7 @@ if (ans===1){
         document.getElementById("question").value="You are right"
 	var audio = new Audio('applause2.mp3');
 	audio.play();
+	 document.body.style.backgroundImage = "url(smile.gif)"
         score++
     }
     else {
