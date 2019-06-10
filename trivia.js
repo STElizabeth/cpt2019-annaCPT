@@ -242,12 +242,16 @@ else {
 	document.write("<img src='goodscore.gif'>")
 	var audio = new Audio('happytrumpet.mp3');
 	    audio.play();
+	 <a href="trivia.html">Trivia Quiz</a>
+
      }
      else {
 	document.write("Sorry you got ",mark, " %")
 	document.write("<img src='badscore.gif'>")
 	var audio =  new Audio('failure.mp3');
-	audio.play();    
+	audio.play(); 
+	<a href="trivia.html">Trivia Quiz</a>
+
      }	
 }	
 	i++;
